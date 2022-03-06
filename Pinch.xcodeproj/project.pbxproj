@@ -11,6 +11,10 @@
 		B7459BE42799A52B0001267E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7459BE32799A52B0001267E /* ContentView.swift */; };
 		B7459BE62799A52E0001267E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7459BE52799A52E0001267E /* Assets.xcassets */; };
 		B7459BE92799A52E0001267E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7459BE82799A52E0001267E /* Preview Assets.xcassets */; };
+		B78C4526279BFAAE00C3C485 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C4525279BFAAE00C3C485 /* InfoPanelView.swift */; };
+		B78C4528279C3C9100C3C485 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C4527279C3C9100C3C485 /* ControlImageView.swift */; };
+		B7E3354E279D3C77006BB558 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E3354D279D3C77006BB558 /* PageModel.swift */; };
+		B7E33550279D3CF7006BB558 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E3354F279D3CF7006BB558 /* PageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		B7459BE52799A52E0001267E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7459BE82799A52E0001267E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7459BEA2799A52E0001267E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78C4525279BFAAE00C3C485 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		B78C4527279C3C9100C3C485 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
+		B7E3354D279D3C77006BB558 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		B7E3354F279D3CF7006BB558 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,11 @@
 		B7459BE02799A52B0001267E /* Pinch */ = {
 			isa = PBXGroup;
 			children = (
+				B768B3A7279AFC6500D09887 /* Data */,
+				B768B3A6279AFC5C00D09887 /* Model */,
+				B768B3A5279AFC5400D09887 /* View */,
 				B7459BE12799A52B0001267E /* PinchApp.swift */,
-				B7459BE32799A52B0001267E /* ContentView.swift */,
+				B768B3A4279AFBEA00D09887 /* Screens */,
 				B7459BE52799A52E0001267E /* Assets.xcassets */,
 				B7459BEA2799A52E0001267E /* Info.plist */,
 				B7459BE72799A52E0001267E /* Preview Content */,
@@ -67,6 +78,39 @@
 				B7459BE82799A52E0001267E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B768B3A4279AFBEA00D09887 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B7459BE32799A52B0001267E /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B768B3A5279AFC5400D09887 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B78C4525279BFAAE00C3C485 /* InfoPanelView.swift */,
+				B78C4527279C3C9100C3C485 /* ControlImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B768B3A6279AFC5C00D09887 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7E3354D279D3C77006BB558 /* PageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B768B3A7279AFC6500D09887 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B7E3354F279D3CF7006BB558 /* PageData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B78C4528279C3C9100C3C485 /* ControlImageView.swift in Sources */,
+				B7E3354E279D3C77006BB558 /* PageModel.swift in Sources */,
 				B7459BE42799A52B0001267E /* ContentView.swift in Sources */,
 				B7459BE22799A52B0001267E /* PinchApp.swift in Sources */,
+				B7E33550279D3CF7006BB558 /* PageData.swift in Sources */,
+				B78C4526279BFAAE00C3C485 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
